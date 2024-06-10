@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6ec2b1, #a3a5c8);
+    color: #ebe2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .stopwatch {
+    background: rgba(170, 239, 164, 0.1);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .timer {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .buttons button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c2e89e;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .buttons button:hover {
+    background: #acd4e7;
+    transform: translateY(-2px);
+  }
+  
+  .buttons button:active {
+    transform: translateY(2px);
+  }
+  
+  .laps {
+    margin-top: 30px;
+  }
+  
+  .laps h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .laps div {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(159, 143, 229, 0.286);
+    border-radius: 6px;
+  }
+  
